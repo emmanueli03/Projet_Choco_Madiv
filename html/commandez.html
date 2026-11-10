@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco MaDiv</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link type="image/jpeg" rel="icon" href="../assets/images/favicon.jpg">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html" class="logo" title="Choco MaDiv">
+                <img src="../assets/images/logo_MaDiv_2.webp" alt="logo_Choco_MaDiv">
+            </a>
+            <h1>Tout le savoir faire des chocolatiers africains.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="commandez.html">Commandez</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="oder">
+            <h2>Profitez de l'offre</h2>
+            <p>Passez votre commande et testez le savoir faire des maitres chocolatiers africains</p>
+
+            <div class="form">
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="name" placeholder="Ex: DETRE" required>
+                    </div>
+
+                    <div>
+                        <label for="surname">Prénom :</label>
+                        <input type="text" id="surname" name="surname" placeholder="Ex: Berthrand" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Adresse Email :</label>
+                        <input type="text" id="email" name="email" placeholder="Ex: berthrand.detre@gmail.com" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Numéro de téléphone :</label>
+                        <input type="text" id="phone" name="phone" placeholder="Ex: +337 00 00 00 00" required>
+                    </div>
+
+                    <div>
+                        <label for="product">Sélectionnez un produit :</label>
+                        <select id="product" name="product" required>
+                            <option value="coffret_decouverte">Coffret Découverte</option>
+                            <option value="coffret_gourmand">Coffret Gourmand</option>
+                            <option value="coffret_prestige">Coffret Prestige</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="adress">Adresse de livraison :</label>
+                        <input type="text" id="adress" name="adress" placeholder="Ex: 123 Rue de la Paix, 75000 Paris" required>
+                    </div>
+
+                    <div>
+                        <label for="date">Date de livraison :</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <div>
+                        <label for="time">Heure de livraison :</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+
+                    <div>
+                        <label for="message">Vos instructions :</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Pour vos consignes de livraison ou toute autres présitions, laissez un message ici."></textarea>
+                    </div>
+
+                    <button type="submit">Valider ma commande</button>
+                </form>
+            </div>
+        </section>
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.7289540922707!2d15.278317499999998!3d-4.272824700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33125907a675%3A0xeab0dace756562a6!2sLe%20Souk%20Restaurant!5e0!3m2!1sen!2sfr!4v1794083373729!5m2!1sen!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </main>
+
+    <footer>&copy; 2026 Choco MaDiv. Tous droits réservés.</footer>
+</body>
+</html>
